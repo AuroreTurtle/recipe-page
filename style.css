@@ -146,12 +146,20 @@ footer a {
 		background-color: hsl(0, 0%, 100%);
 		border-radius: 20px;
 		width: 650px;
-		margin: 100px auto;
+		margin: 110px auto;
 		padding: 40px;
 	}
 
 	img {
 		border-radius: 20px;
+	}
+
+	h1 {
+		font-size: 40px;
+	}
+
+	h2 {
+		font-size: 28px;
 	}
 
 	.recipe {
