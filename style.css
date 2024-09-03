@@ -112,6 +112,7 @@ tr {
 	padding: 10px 90px 10px 25px;
 }
 
+/* Footer */
 footer p {
 	font-size: 11px;
 	text-align: center;
@@ -120,4 +121,48 @@ footer p {
 footer a {
 	color: hsl(14, 45%, 36%);
 	text-decoration: none;
+}
+
+@media (min-width: 768px) {
+	.recipe {
+		margin: 35px 50px;
+	}
+
+	.name {
+		padding: 10px 200px 10px 30px;
+	}
+
+	.number {
+		padding: 10px 300px 10px 25px;
+	}
+}
+
+@media (min-width: 1000px) {
+	body {
+		background-color: hsl(30, 54%, 90%);
+	}
+
+	article {
+		background-color: hsl(0, 0%, 100%);
+		border-radius: 20px;
+		width: 650px;
+		margin: 200px auto;
+		padding: 40px;
+	}
+
+	img {
+		border-radius: 20px;
+	}
+
+	.recipe {
+		margin: 35px 0;
+	}
+
+	.name {
+		padding: 10px 200px 10px 30px;
+	}
+
+	.number {
+		padding: 10px 250px 10px 50px;
+	}
 }
